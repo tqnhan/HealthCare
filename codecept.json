@@ -12,6 +12,10 @@
     "I": "./steps_file.js"
   },
   "bootstrap": false,
-  "mocha": {},
+  "mocha": {
+    "reporterOptions": {
+        "mochaFile": "output/result.xml"
+    }
+  },
   "name": "HealthCare"
 }
